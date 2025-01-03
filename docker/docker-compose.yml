@@ -23,7 +23,7 @@ services:
       - SHELL=/bin/bash
     working_dir: /home/frappe
     volumes:
-      - ./init.sh:/workspace/init.sh
+       - ./docker/:/workspace/
 
 volumes:
   mariadb-data:
